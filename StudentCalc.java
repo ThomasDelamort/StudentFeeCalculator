@@ -112,7 +112,7 @@ public class StudentCalc extends JFrame implements ActionListener {
                 String summation = "Student Name: "+student+
                                 "\nYear Level: "+yearLevel+
                                 "\nActivities:"+activities+
-                                "\nTotal Fee: "+totalFee;
+                                "\nTotal Fee: ₱"+totalFee;
                 JOptionPane.showMessageDialog(this, summation, "Fee Details", JOptionPane.INFORMATION_MESSAGE);
             }
         } else if (e.getSource() == close) {
@@ -122,4 +122,5 @@ public class StudentCalc extends JFrame implements ActionListener {
     public static void main(String[] args) {
         new StudentCalc();
     }
+
 }
