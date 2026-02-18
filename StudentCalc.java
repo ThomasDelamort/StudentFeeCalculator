@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionListener.*;
 
-public class StudentCalc extends JFrame implements ActionListener {
+public class StudentCalculator extends JFrame implements ActionListener {
     JLabel studentName, yearLevel, optionalActs;
     JTextField name;
     ButtonGroup rbs = new ButtonGroup();
@@ -13,7 +13,7 @@ public class StudentCalc extends JFrame implements ActionListener {
     JCheckBox sportsClub, musicClub, artsClub;
     JButton calculate, close;
 
-    public StudentCalc() {
+    public StudentCalculator() {
         setLayout(new GridLayout(13, 1));;
         setSize(545, 450);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -124,3 +124,4 @@ public class StudentCalc extends JFrame implements ActionListener {
     }
 
 }
+
